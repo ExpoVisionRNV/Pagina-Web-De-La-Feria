@@ -1,1 +1,77 @@
 # Pagina-Web-De-La-Feria
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mockup Feria RNV 2025 ExpoVisión</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #f2f2f2; }
+    header { background: url('https://i.postimg.cc/xCDwSStC/Whats-App-Image-2025-11-10-at-2-16-54-PM.jpg') center/cover no-repeat; padding: 40px; color: white; position: relative; }
+    .top-bar { display: flex; justify-content: space-between; align-items: center; }
+    nav a { margin-left: 20px; color: white; text-decoration: none; font-weight: bold; }
+    .view-selector { background: white; padding: 5px 10px; border-radius: 8px; }
+
+    .hero { text-align: center; padding: 80px 20px; }
+    .hero h1 { font-size: 48px; margin: 0; }
+    .hero p { font-size: 20px; margin-top: 10px; }
+    .hero button { padding: 14px 28px; background: black; color: white; border: none; margin-top: 20px; cursor: pointer; font-size: 16px; }
+
+    .section-title { text-align: center; margin-top: 60px; font-size: 32px; }
+    .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 40px; }
+    .card { background: white; border-radius: 12px; padding: 20px; text-align: center; }
+    .card img { width: 80px; height: 80px; object-fit: cover; margin-bottom: 10px; }
+    .card h3 { margin: 10px 0 5px; }
+
+    .info-block { background: #ffe53b; padding: 40px; margin: 40px; border-radius: 12px; font-size: 18px; }
+    .info-block button { margin-top: 20px; padding: 12px 24px; background: black; color: white; border: none; cursor: pointer; }
+
+    footer { text-align: center; padding: 20px; margin-top: 40px; background: #111; color: white; }
+    .socials span { margin: 0 10px; font-size: 22px; cursor: pointer; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+    <div class="logos">LOGO RNV + LOGO EXPOVISIÓN</div>
+    <nav>
+      <a href="#">INICIO</a>
+      <a href="#">CONTACTO</a>
+    </nav>
+    <div class="view-selector">📱 Móvil | 🖥️ Escritorio</div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Emprendimientos juveniles</h1>
+  <p>conoce nuestros emprendimientos Rafaelianos</p>
+  <button>Ponte En Contacto</button>
+</section>
+
+<h2 class="section-title">Emprendimientos 2025</h2>
+<div class="grid">
+  <div class="card"><img src="https://i.postimg.cc/vTp903Gj/Chat-GPT-Image-17-oct-2025-11-12-09-a-m-(1).png"><h3>Sophistiquée</h3><p>Belleza - Cosméticos</p></div>
+  <div class="card"><img src="https://i.postimg.cc/52QK9RHW/552149332-17844413367576868-6065956585090940425-n.jpg"><h3>EXOTIC STORE</h3><p>Ropa</p></div>
+  <div class="card"><img src="https://i.postimg.cc/rFn7w4fk/481060746-3964976393775445-7820402974895987023-n.jpg"><h3>DINASTIA MAKEUP</h3><p>Maquillaje</p></div>
+  <div class="card"><img src="https://i.postimg.cc/yd1TRQNj/sebas-cakes.png"><h3>SEBAS CAKES Y POSTRES</h3><p>Repostería</p></div>
+  <div class="card"><img src="https://i.postimg.cc/dDPk23Bw/Gemini-Generated-Image-8084cr8084cr8084.png"><h3>SALCHIKAZE</h3><p>Comida Rápida</p></div>
+  <div class="card"><img src="https://i.postimg.cc/FzFn9FSW/Diseno-sin-titulo.png"><h3>MAGIA MACAO</h3><p>Repostería</p><p>Tel: 321-55-68-102</p></div>
+  <div class="card"><img src="https://i.postimg.cc/wjk2BYqY/Whats-App-Image-2025-11-02-at-5-02-02-PM.jpg"><h3>Dulce Detalle</h3><p>Detalles</p></div>
+  <div class="card"><img src="https://i.postimg.cc/9MbJN3ks/print-lab.png"><h3>PRINT LAB</h3><p>Ropa - Estampados</p></div>
+</div>
+
+<div class="info-block">
+  En este espacio podrás descubrir todos los emprendimientos y proyectos innovadores desarrollados por nuestros estudiantes durante el año 2025, como parte de la Feria Empresarial ExpoVisión, celebrada los días 13 y 14 de noviembre.
+  <br>
+ <button onclick="window.open('https://www.instagram.com/expovisionrnv?igsh=enp1cjlzN3cwN3Jm', '_blank')">Sigue nuestras redes sociales</button>
+</div>
+</div>
+
+<footer>
+  © 2025. Todos los derechos reservados.
+ <div class="socials"><a href="https://www.instagram.com/expovisionrnv?igsh=enp1cjlzN3cwN3Jm" target="_blank">○</a><span>♬</span></div>
+</footer>
+
+</body>
+</html>
